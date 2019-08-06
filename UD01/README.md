@@ -1,7 +1,5 @@
 # Unidad didática 1: Elementos del desarrollo de software
 
-[[TOC]]
-
 ## 1. Introducción: un poco de historia
 
 La aparición de la informática en la década de los 50 da origen no sólo a una nueva forma de tratar la información, sino que genera un cambio radical en la sociedad creando una nueva cultura, que no sólo se basa en la informática como ciencia, sino que comienza a depender íntimamente de ella, permitiendo avances tecnológicos jamás soñados.
