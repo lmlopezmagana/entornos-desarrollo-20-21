@@ -1,7 +1,7 @@
 
-# 1. Unidad didática 1: Elementos del desarrollo de software
+# Unidad didática 1: Elementos del desarrollo de software
 
-## 1.1. Introducción: un poco de historia
+## 1. Introducción: un poco de historia
 
 La aparición de la informática en la década de los 50 da origen no sólo a una nueva forma de tratar la información, sino que genera un cambio radical en la sociedad creando una nueva cultura, que no sólo se basa en la informática como ciencia, sino que comienza a depender íntimamente de ella, permitiendo avances tecnológicos jamás soñados.
 
@@ -21,7 +21,7 @@ El hombre es quien marca las pautas para su correcto funcionamiento a través de
 
 En definitiva, un ordenador es una simple máquina capaz de aceptar datos de entrada, procesarlos y facilitar datos o resultados de salida.
 
-## 1.2. Programa y aplicación informática
+## 2. Programa y aplicación informática
 
 Seguro que alguna vez hemos usado el ordenador para escribir un texto o para entretenernos (demasiado tiempo) con algún juego. Para hacerlo hemos tenido que poner en marcha el procesador de texto o el juego en cuestión. Pues bien, las dos cosas son programas de ordenador.
 
@@ -52,9 +52,9 @@ un determinado lenguaje de programación.
 
 > Un **sistema** es **el conjunto de elementos** relacionados entre sí **para la consecución** de un determinado **fin**.
 
-## 1.3. Lenguajes de programación
+## 3. Lenguajes de programación
 
-### 1.3.1. Definición de lenguaje
+### 3.1. Definición de lenguaje
 
 Para realizar las operaciones y acciones, el procesador del ordenador necesita recibir instrucciones, que por lo general son indicadas como un código binario. Estas instrucciones están escritas en el llamado lenguaje o código máquina.
 
@@ -66,7 +66,7 @@ Su principal característica es que todo esto se realiza a través de un lenguaj
 
 Al proceso por el cual se escribe, se prueba, se depura, se compila y se mantiene el código fuente de un programa informático se le llama programación.
 
-### 1.3.2. Elementos de un lenguaje de programación
+### 3.2. Elementos de un lenguaje de programación
 
 Al igual que en el lenguaje natural de las personas, cualquier lenguaje de programación queda definido por ciertos elementos y reglas que permiten describir de los datos y de los procesos o transformaciones aplicadas a estos datos (tal como la suma de dos números o la selección de un elemento que forma parte de una
 colección). Estos elementos son definidos por reglas sintácticas y semánticas que describen su estructura y significado respectivamente.
@@ -88,7 +88,7 @@ Usando el lenguaje natural, por ejemplo, puede no ser posible asignarle signific
 * “Las ideas verdes y descoloridas duermen furiosamente” es una oración bien formada gramaticalmente pero no tiene significado comúnmente aceptado.
 * “Juan es un soltero casado” también está bien formada gramaticalmente pero expresa un significado que no puede ser verdadero.
 
-### 1.3.3. Tipos de lenguajes de programación
+### 3.3. Tipos de lenguajes de programación
 
 Un lenguaje de programación es, por definición, diferente al lenguaje máquina, por lo que deben traducirse para que el procesador pueda comprenderlo. Según la forma en la que se haga está traducción, los lenguajes de programación pueden dividirse en dos
 categorías:
@@ -124,8 +124,7 @@ archivo fuente) y no ejecutable (requeriría un intérprete).
 
 Como veremos más adelante, éste es el caso de Java, en el que se realiza un doble proceso de compilación e interpretación.
 
-
-### 1.3.4. Tipos de código generados por un lenguaje de programación
+### 3.4. Tipos de código generados por un lenguaje de programación
 
 A lo largo de la unidad se han ido nombrando distintos conceptos como código fuente y código ejecutable. Todos ellos son distintas fases del código que se genera por un lenguaje de programación, y se corresponde con distintas fases de la elaboración de
 un programa.
@@ -144,7 +143,7 @@ Por lo general, una aplicación informática está formada por un conjunto de pr
 
 > Un **archivo ejecutable** es un programa completo, que puede ser ejecutado por el ordenador, obtenido después de enlazar varios códigos objetos y librerías.
 
-### 1.3.5. Paradigmas de programación
+### 3.5. Paradigmas de programación
 
 Un paradigma (método o modelo) de programación determina la visión y métodos de un programador en la construcción de un programa o subprograma, se puede decir también que son diferentes formas de pensar la solución de problemas. Ejemplos de paradigmas de programación son los siguientes:
 
@@ -157,8 +156,7 @@ Un paradigma (método o modelo) de programación determina la visión y métodos
 
 En este curso nos centraremos en dos de estos paradigmas: la programación estructurada y la programación orientada a objetos.
 
-
-### 1.3.6. La programación estructurada
+### 3.6. La programación estructurada
 
 Es un estilo de programación con el cual el programador elabora programas, cuya
 estructura es **la más clara posible**, mediante el uso de tres estructuras básicas de
@@ -183,8 +181,7 @@ Entre las **ventajas** de la programación estructurada, se encuentran las sigui
 
 Por el contrario, la programación estructurada acarrea algunos **inconvenientes**. El principal es que se obtiene un **único bloque** de programa, que cuando se hace demasiado grande puede resultar problemático en cuanto a su manejo, esto se resuelve empleando la **programación modular**.
 
-
-### 1.3.7. La programación orientada a objetos
+### 3.7. La programación orientada a objetos
 
 La programación orientada a objetos se caracteriza por la idea central, **el objeto**. Podemos decir que ***cualquier cosa, en serio, cualquier cosa***, que nos rodea es un objeto (cada mesa, cada compañero, cada monitor,...).
 
@@ -194,7 +191,7 @@ La programación orientada a objetos se caracteriza por la idea central, **el ob
 
 Las características fundamentales de este enfoque son las siguientes:
 
-* Existe la posibilidad de ***representar directamente las entidades del mundo real*** en los escenarios informáticos, sin necesidad de deformarlas. 
+* Existe la posibilidad de ***representar directamente las entidades del mundo real*** en los escenarios informáticos, sin necesidad de deformarlas.
 * Se facilita enormemente la ***reutilización y modificación del software***.
 * Se puede ***trabajar en equipo***, desarrollando en paralelo módulos para una aplicación con un esfuerzo mínimo en coordinación.
 
@@ -227,9 +224,9 @@ La base de la POO está en la definición de _Clases y Objetos_. Una **clase** e
 
 Para finalizar, diremos que un modelo de objetos es **más cercano a la realidad** que un modelo funcional. Además, el modelo orientado a objetos **facilita la integridad de módulos** que han sido realizados por separado para no correr riesgos en el manejo de los datos.
 
-## 1.4. El lenguaje de programación Java
+## 4. El lenguaje de programación Java
 
-### 1.4.1. Historia del lenguaje Java
+### 4.1. Historia del lenguaje Java
 
 > _"Lo que Java intenta hacer, y lo hace con bastante éxito, es abarcar bastantes dominios diferentes. De esa forma le permite efectuar trabajos para App server, trabajos para teléfonos móviles, programación científica, puede escribir software, realizar navegación interplanetaria, cualquier cosa…”_ (James Gosling, creador de Java)
 
@@ -270,7 +267,7 @@ En septiembre de 2017 se libera la versión 9 de Java, y a partir de ahí, se pa
 
 A día de hoy, la última versión pendiente de liberar es Java 13, y la última LTS liberada es la 11, si bien una de las más utilizadas sigue siendo la 8.
 
-### 1.4.2. Características del lenguaje Java
+### 4.2. Características del lenguaje Java
 
 * **Lenguaje Simple**: Java posee una curva de aprendizaje muy rápida. Resulta relativamente sencillo escribir programas interesantes desde el principio. Todos aquellos familiarizados con C++ encontrarán que Java es más sencillo, ya que
 se han eliminado ciertas características, como los punteros. Debido a su semejanza con C y C++, y dado que la mayoría de la gente los conoce aunque sea de forma elemental, resulta muy fácil aprender Java. Los programadores
@@ -292,10 +289,9 @@ son iguales en todas las plataformas. Estas dos últimas características se con
 el usuario mientras otro presenta una animación en pantalla y otro realiza cálculos.
 * **Dinámico**: El lenguaje Java y su sistema de ejecución en tiempo real son dinámicos en la fase de enlazado. Las clases sólo se enlazan a medida que son necesitadas. Se pueden enlazar nuevos módulos de código bajo demanda, procedente de fuentes muy variadas, incluso desde la Red.
 
-### 1.4.3. La máquina virtual de Java (JVM)
+### 4.3. La máquina virtual de Java (JVM)
 
 Tal y como se ha dicho en el apartado anterior, Java es un lenguaje doblemente compilado e interpretado, lo que lo convierte en un lenguaje altamente portable y compatible con cualquier tipo de hardware.
-
 
 ![Java es doblemente compilado e interpretado](img/img13.png)
 
@@ -309,9 +305,9 @@ ventaja de este paso es que el bytecode obtenido para una clase es siempre igual
 La portabilidad e independencia de máquina o sistemas operativos, se obtiene a través de la máquina virtual de java (Java Virtual Machine, JVM). Esta “máquina” es un software necesario para poder ejecutar cualquier aplicación escrita en java y es el
 encargado de traducir el bytecode en lenguaje máquina, ya adaptado a la máquina concreta sobre la que se está ejecutando. Por tanto, será necesario instalar la JVM apropiada al S.O. del dispositivo.
 
-## 1.5. Fases en el desarrollo de una aplicación
+## 5. Fases en el desarrollo de una aplicación
 
-### 1.5.1. Metodología para el desarrollo de software
+### 5.1. Metodología para el desarrollo de software
 
 Imaginemos que quiero construirme una casa. ¿Qué pensarías de mí si empezara a poner ladrillos sin antes haber hecho un estudio del suelo, materiales, recursos, y sin haber hecho un diseño previo? Pues lo mismo que se puede pensar de la gente que se pone a programar sin seguir una metodología de programación, que haberla la hay.
 
@@ -335,7 +331,7 @@ Existen multitud de metodologías, resultando cada una de ellas más adecuada a 
 
 *Ilustración 14*. Un ejemplo de como organizar las tareas en una metodología ágil como Scrum.
 
-### 1.5.2. Ciclo de vida del software 
+### 5.2. Ciclo de vida del software
 
 Al igual que en otros sistemas de ingeniería, los sistemas de software requieren un tiempo y esfuerzo considerable para su desarrollo y deben permanecer en uso por un periodo mucho mayor.
 
@@ -349,7 +345,6 @@ como parte del proyecto o forma parte de la documentación interna.
 Un aspecto esencial dentro de las tareas del desarrollo del software es la **documentación** de todos los elementos y especificaciones en cada fase. Cada etapa tiene como entrada uno o varios documentos procedentes de las etapas anteriores y produce otros documentos de salida.
 
 Después de cada etapa se realiza una revisión para comprobar si se puede pasar a la siguiente.
-
 
 ![Ciclo de vida en cascada](img/img15.png)
 
@@ -375,9 +370,8 @@ La obtención de requisitos es difícil por varias razones:
 * Surgen nuevos requisitos en cualquier momento.
 * El cliente puede no tenerlos claros.
 * Pueden existir malos entendidos debidos a:
-    * Falta de conocimientos por parte del equipo desarrollador sobre el problema.
-    * Falta de conocimientos técnicos (informáticos) por parte del cliente para expresarse con claridad.
-
+  * Falta de conocimientos por parte del equipo desarrollador sobre el problema.
+  * Falta de conocimientos técnicos (informáticos) por parte del cliente para expresarse con claridad.
 
 ![Tabla de requisitos](img/tbl01.png)
 
@@ -394,7 +388,6 @@ Otros elementos importantes en la fase de análisis son los casos de uso, que co
 * Representa los requisitos funcionales desde el punto de vista del usuario y por lo tanto produce un resultado observable por él.
 * Es iniciado por un único actor. 
 * Realiza una funcionalidad concreta.
-
 
 Mediante un diagrama de casos de uso podemos representar los diferentes casos de uso, las relaciones entre ellos y los actores participantes.
 
@@ -414,7 +407,7 @@ En una reunión final, se dará por cerrado el análisis, aprobando el **Documen
 
 Dicho de otro modo, cualquier modificación que quiera hacerse en el proyecto deberá encontrarse dentro del alcance del documento de análisis. En caso contrario, se entenderá fuera del contrato y, por tanto, no se realizará (o se renegociará el contrato).
 
-### 1.5.4. Diseño
+### 5.4. Diseño
 
 Una vez que se han identificado los requisitos para el problema, es necesario idear y componer la forma de la solución para el problema. Para dejar constancia de los diseños se deben utilizar lenguajes lo más formales posible, como tablas, diagramas y
 pseudocódigo.
@@ -433,7 +426,7 @@ Por lo general, el producto de esta fase es el Documento de Diseño que, entre o
 
 *Ilustración 16*. Ejemplo de un diagrama de clases.
 
-### 1.5.5. Implementación o codificación
+### 5.5. Implementación o codificación
 
 En esta fase el programador recibe las especificaciones del diseño y transforma esas especificaciones, que pueden estar en diversos formatos, en un programa o módulo que las efectúe. Esta tarea de codificación puede estar semi-automatizada o realizarse de forma completamente manual.
 
@@ -446,7 +439,7 @@ testeado en la fase de pruebas. Otros productos de esta fase son:
 * el manual de usuario
 * la documentación del código, donde se recoge la funcionalidad de cada clase.
 
-### 1.5.6. Pruebas
+### 5.6. Pruebas
 
 Tras la codificación llega el momento de realizar la mayor parte de las pruebas a nuestro software.
 
@@ -464,7 +457,7 @@ Las pruebas que se van haciendo durante el ciclo de vida son:
 
 Inevitablemente también hay que añadir la correspondiente documentación de las pruebas realizadas, en la que se indica tanto el plan de pruebas que se va a seguir como los resultados de la ejecución del plan.
 
-### 1.5.7. Documentación
+### 5.7. Documentación
 
 En esta fase es necesario reunir todos los documentos generados y clasificarlos según el nivel técnico de sus descripciones. Es muy importante distinguir entre:
 
@@ -476,31 +469,31 @@ Una vez que se ha finalizado el proyecto se debe tener una documentación útil 
 En un proyecto no es necesario que estén todos, sobre todo en proyectos pequeños, pero los documentos habituales son:
 
 * Documentos previos de Ingeniería:
-    * Estudio de viabilidad
-    * Análisis de riesgo
-    * Análisis costo-beneficio
-    * Informe de decisión de sistemas
-    * Plan de proyecto
+  * Estudio de viabilidad
+  * Análisis de riesgo
+  * Análisis costo-beneficio
+  * Informe de decisión de sistemas
+  * Plan de proyecto
 * Documentos de Desarrollo del Proyecto:
-    * Requisitos funcionales
-    * Requisitos de datos
-    * Especificaciones de sistema/subsistema
-    * Especificaciones del programa
-    * Especificaciones de la base de datos
-    * Plan de Pruebas
+  * Requisitos funcionales
+  * Requisitos de datos
+  * Especificaciones de sistema/subsistema
+  * Especificaciones del programa
+  * Especificaciones de la base de datos
+  * Plan de Pruebas
 * Documentos de usuarios y de explotación:
   * Manual de usuario
   * Manual de operación
   * Manual de mantenimiento
   * Plan de instalación
 
-### 1.5.8. Explotación y Mantenimiento
+### 5.8. Explotación y Mantenimiento
 
 Como etapa final en el ciclo de vida del software se debe realizar la entrega de la primera versión al cliente y considerar las posibles posteriores modificaciones de mantenimiento.
 
 Dentro del mantenimiento se deben incluir no solamente las correcciones de errores detectados posteriormente por el cliente, sino también las modificaciones necesarias para actualización, e incluso las peticiones de cambios por parte del cliente.
 
-### 1.5.9. Metodologías ágiles
+### 5.9. Metodologías ágiles
 
 El desarrollo ágil de software refiere a métodos basados en el **desarrollo iterativo e incremental**, donde los requisitos y soluciones evolucionan mediante la colaboración de grupos auto organizados y multidisciplinarios.
 
@@ -514,7 +507,7 @@ Los métodos ágiles **enfatizan las comunicaciones cara a cara en vez de la doc
 
 Otra técnica relacionada es la **[técnica Pomodoro](https://es.wikipedia.org/wiki/T%C3%A9cnica_Pomodoro)**, para gestionar el tiempo, cuyo objetivo es dividir todo el trabajo en tareas que puedan realizarse en 25 minutos.
 
-### 1.5.10. Scrum
+### 5.10. Scrum
 
 La metodología Scrum está basada en el manifiesto ágil, cuyos fundamentos exponen lo siguiente:
 
@@ -531,7 +524,7 @@ Scrum ordena el desarrollo en **ciclos de trabajo llamados iteraciones** (_Sprin
 
 *Ilustración 17*. Gráfico explicativo del proceso Scrum.
 
-#### 1.5.10.1. Fases de una iteración
+#### 5.10.1. Fases de una iteración
 
 * **Planificación de la iteración** (***Sprint Planning***): Al iniciar cada iteración, un equipo multifuncional selecciona los requisitos del cliente de una lista priorizada (***ProductBackLog***) y propone los requisitos más prioritarios a desarrollar en ella y se comprometen a terminar los elementos al final de la iteración. En el transcurso de la iteración no se pueden cambiar los elementos elegidos.
 
@@ -546,22 +539,19 @@ El equipo planifica la iteración, define las tareas necesarias para poder compl
 *Ilustración 19*. Cómo pasar del _Producto backlog_ al _Sprint backlog_ y la división en tareas
 
 * **Ejecución de la iteración** (***Sprint***): Todos los días el equipo se reúne brevemente para informar del progreso, y actualizan unas gráficas sencillas que les orientan sobre el trabajo restante. Cada miembro del equipo debe responder las siguientes preguntas:
-    * ¿Qué he hecho desde la última reunión de sincronización? ¿Pude hacer todo lo que tenía planeado? ¿Cuál fue el problema?
-    * ¿Qué voy a hacer a partir de este momento?
-    * ¿Qué impedimentos tengo o voy a tener para cumplir mis compromisos en esta iteración y en el proyecto?
-
-
+  * ¿Qué he hecho desde la última reunión de sincronización? ¿Pude hacer todo lo que tenía planeado? ¿Cuál fue el problema?
+  * ¿Qué voy a hacer a partir de este momento?
+  * ¿Qué impedimentos tengo o voy a tener para cumplir mis compromisos en esta iteración y en el proyecto?
 * **El tablero de tareas** (***Scrum Taskboard***): La lista de objetivos a completar en la iteración también se puede gestionar mediante un tablón de tareas (_scrum taskboard_). Al lado de cada objetivo se ponen las tareas necesarias para completarlo usando _post-its_, y se van moviendo hacia la derecha para cambiarlas de estado (pendientes de iniciar, en progreso, hechas). Para cada miembro del equipo se puede utilizar adhesivos de colores más pequeños sobre cada tarea, de manera que se pueda ver en qué tareas está trabajando cada cual. También podemos crearlo digitalmente; una de las herramientas gratuítas para hacerlo es trello [https://trello.com/](https://trello.com/).
 
 ![Scrum taskboard](img/img20.png)
 
 *Ilustración 20*. Creación de un tablero de tareas usando la herramienta Trello.
 
-
-* **Demostración de requisitos completados** (***Sprint Demonstration***): Al final del sprint, el equipo revisa el sprint con los interesados en el proyecto, y les enseña lo que han construido y los requisitos completados. La gente obtiene comentarios y observaciones que se puede incorporar al siguiente sprint. 
+* **Demostración de requisitos completados** (***Sprint Demonstration***): Al final del sprint, el equipo revisa el sprint con los interesados en el proyecto, y les enseña lo que han construido y los requisitos completados. La gente obtiene comentarios y observaciones que se puede incorporar al siguiente sprint.
 * **Retrospectiva de la iteración** (***Sprint Retrospective***): Es una oportunidad para que el equipo hable sobre lo que funciona y lo que no (no solo del producto que se está realizando, sino además de cómo se está llevando adelante el proceso), y acuerden qué cambios quieren intentar.
 
-#### 1.5.10.2. Roles en un proyecto Scrum
+#### 5.10.2. Roles en un proyecto Scrum
 
 Existen tres roles principales dentro de un proceso _Scrum_:
 
@@ -571,7 +561,7 @@ Existen tres roles principales dentro de un proceso _Scrum_:
 
 * **Equipo** (***Team***): Es el grupo de personas que de manera conjunta desarrollan el producto del proyecto.
 
-#### 1.5.10.3. Beneficios de usar Scrum
+#### 5.10.3. Beneficios de usar Scrum
 
 Como conclusión, podemos enumerar muchos de los beneficios de utilizar Scrum en un proyecto:
 
@@ -588,24 +578,20 @@ Como conclusión, podemos enumerar muchos de los beneficios de utilizar Scrum en
 
 Puedes profundizar más en el estudio de Scrum en la web Proyectos Ágiles (https://proyectosagiles.org/que-es-scrum/), que contiene amplios tutoriales y diccionarios de Scrum.
 
-
 ## 1.6. Bibliografía
 
-* http://es.kioskea.net/contents/langages/langages.php3
-* http://es.wikipedia.org/wiki/Lenguaje_de_programación 
-* http://es.wikipedia.org/wiki/C%C3%B3digo_fuente 
-* http://es.wikipedia.org/wiki/C%C3%B3digo_objeto 
+* <http://es.kioskea.net/contents/langages/langages.php3>
+* <http://es.wikipedia.org/wiki/Lenguaje_de_programación>
+* <http://es.wikipedia.org/wiki/C%C3%B3digo_fuente>
+* <http://es.wikipedia.org/wiki/C%C3%B3digo_objeto>
 * ÁLVAREZ SÁNCHEZ, J.R. y ARIAS CALLEJA, MANUEL: “Análisis, diseño y mantenimiento de Software”.
-* http://www.ia.uned.es/ia/asignaturas/adms/GuiaDidADMS/index.html.
-* RODRÍGUEZ BARRANCO, J.A.: “Metodología de Desarrollo Software. El modelo en V o de cuatro niveles”. Publicado en su blog personal: http://www.iiia.csic.es/udt/es/blog/jrodriguez/2008/metodologia-desarrollosotware-modelo-en-v-o-cuatro-niveles 
-* Página web oficial de Métrica v3: http://administracionelectronica.gob.es/?_nfpb=true&_pageLabel=P600859012
+* <http://www.ia.uned.es/ia/asignaturas/adms/GuiaDidADMS/index.html.>
+* RODRÍGUEZ BARRANCO, J.A.: “Metodología de Desarrollo Software. El modelo en V o de cuatro niveles”. Publicado en su blog personal: <http://www.iiia.csic.es/udt/es/blog/jrodriguez/2008/metodologia-desarrollosotware-modelo-en-v-o-cuatro-niveles>
+* Página web oficial de Métrica v3: <http://administracionelectronica.gob.es/?_nfpb=true&_pageLabel=P600859012>
 74201580632&langPae=es
-* https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software. 
-* http://pomodorotechnique.com/.
-* https://es.wikipedia.org/wiki/Scrum.
-* https://proyectosagiles.org/que-es-scrum/.
+* <https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software.> 
+* <http://pomodorotechnique.com/.>
+* <https://es.wikipedia.org/wiki/Scrum.>
+* <https://proyectosagiles.org/que-es-scrum/.>
 * DÍAZ, A.: “Introducción a Scrum y por qué debes usarlo”. Publicado en su blog
-personal: https://highscalability.wordpress.com/2010/01/24/introduccion-ascrum-y-por-que-debes-usarlo/. Consultado el 25 de septiembre de 2016
-
-
-
+personal: <https://highscalability.wordpress.com/2010/01/24/introduccion-ascrum-y-por-que-debes-usarlo/.> Consultado el 25 de septiembre de 2016
