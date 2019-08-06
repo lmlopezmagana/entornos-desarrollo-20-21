@@ -1,5 +1,6 @@
-
 # Unidad didática 1: Elementos del desarrollo de software
+
+[[TOC]]
 
 ## 1. Introducción: un poco de historia
 
@@ -578,7 +579,7 @@ Como conclusión, podemos enumerar muchos de los beneficios de utilizar Scrum en
 
 Puedes profundizar más en el estudio de Scrum en la web Proyectos Ágiles (https://proyectosagiles.org/que-es-scrum/), que contiene amplios tutoriales y diccionarios de Scrum.
 
-## 1.6. Bibliografía
+## 6. Bibliografía
 
 * <http://es.kioskea.net/contents/langages/langages.php3>
 * <http://es.wikipedia.org/wiki/Lenguaje_de_programación>
