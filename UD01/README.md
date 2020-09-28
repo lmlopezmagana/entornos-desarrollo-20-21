@@ -3,36 +3,36 @@
 
 <!-- toc -->
 
-- [Unidad didática 1: Elementos del desarrollo de software](#unidad-did%c3%a1tica-1-elementos-del-desarrollo-de-software)
-  - [1. Introducción: un poco de historia](#1-introducci%c3%b3n-un-poco-de-historia)
-  - [2. Programa y aplicación informática](#2-programa-y-aplicaci%c3%b3n-inform%c3%a1tica)
-  - [3. Lenguajes de programación](#3-lenguajes-de-programaci%c3%b3n)
-    - [3.1. Definición de lenguaje](#31-definici%c3%b3n-de-lenguaje)
-    - [3.2. Elementos de un lenguaje de programación](#32-elementos-de-un-lenguaje-de-programaci%c3%b3n)
-    - [3.3. Tipos de lenguajes de programación](#33-tipos-de-lenguajes-de-programaci%c3%b3n)
-    - [3.4. Tipos de código generados por un lenguaje de programación](#34-tipos-de-c%c3%b3digo-generados-por-un-lenguaje-de-programaci%c3%b3n)
-    - [3.5. Paradigmas de programación](#35-paradigmas-de-programaci%c3%b3n)
-    - [3.6. La programación estructurada](#36-la-programaci%c3%b3n-estructurada)
-    - [3.7. La programación orientada a objetos](#37-la-programaci%c3%b3n-orientada-a-objetos)
-  - [4. El lenguaje de programación Java](#4-el-lenguaje-de-programaci%c3%b3n-java)
+- [Unidad didática 1: Elementos del desarrollo de software](#unidad-didática-1-elementos-del-desarrollo-de-software)
+  - [1. Introducción: un poco de historia](#1-introducción-un-poco-de-historia)
+  - [2. Programa y aplicación informática](#2-programa-y-aplicación-informática)
+  - [3. Lenguajes de programación](#3-lenguajes-de-programación)
+    - [3.1. Definición de lenguaje](#31-definición-de-lenguaje)
+    - [3.2. Elementos de un lenguaje de programación](#32-elementos-de-un-lenguaje-de-programación)
+    - [3.3. Tipos de lenguajes de programación](#33-tipos-de-lenguajes-de-programación)
+    - [3.4. Tipos de código generados por un lenguaje de programación](#34-tipos-de-código-generados-por-un-lenguaje-de-programación)
+    - [3.5. Paradigmas de programación](#35-paradigmas-de-programación)
+    - [3.6. La programación estructurada](#36-la-programación-estructurada)
+    - [3.7. La programación orientada a objetos](#37-la-programación-orientada-a-objetos)
+  - [4. El lenguaje de programación Java](#4-el-lenguaje-de-programación-java)
     - [4.1. Historia del lenguaje Java](#41-historia-del-lenguaje-java)
-    - [4.2. Características del lenguaje Java](#42-caracter%c3%adsticas-del-lenguaje-java)
-    - [4.3. La máquina virtual de Java (JVM)](#43-la-m%c3%a1quina-virtual-de-java-jvm)
-  - [5. Fases en el desarrollo de una aplicación](#5-fases-en-el-desarrollo-de-una-aplicaci%c3%b3n)
-    - [5.1. Metodología para el desarrollo de software](#51-metodolog%c3%ada-para-el-desarrollo-de-software)
+    - [4.2. Características del lenguaje Java](#42-características-del-lenguaje-java)
+    - [4.3. La máquina virtual de Java (JVM)](#43-la-máquina-virtual-de-java-jvm)
+  - [5. Fases en el desarrollo de una aplicación](#5-fases-en-el-desarrollo-de-una-aplicación)
+    - [5.1. Metodología para el desarrollo de software](#51-metodología-para-el-desarrollo-de-software)
     - [5.2. Ciclo de vida del software](#52-ciclo-de-vida-del-software)
-    - [1.5.3. Análisis](#153-an%c3%a1lisis)
-    - [5.4. Diseño](#54-dise%c3%b1o)
-    - [5.5. Implementación o codificación](#55-implementaci%c3%b3n-o-codificaci%c3%b3n)
+    - [1.5.3. Análisis](#153-análisis)
+    - [5.4. Diseño](#54-diseño)
+    - [5.5. Implementación o codificación](#55-implementación-o-codificación)
     - [5.6. Pruebas](#56-pruebas)
-    - [5.7. Documentación](#57-documentaci%c3%b3n)
-    - [5.8. Explotación y Mantenimiento](#58-explotaci%c3%b3n-y-mantenimiento)
-    - [5.9. Metodologías ágiles](#59-metodolog%c3%adas-%c3%a1giles)
+    - [5.7. Documentación](#57-documentación)
+    - [5.8. Explotación y Mantenimiento](#58-explotación-y-mantenimiento)
+    - [5.9. Metodologías ágiles](#59-metodologías-ágiles)
     - [5.10. Scrum](#510-scrum)
-      - [5.10.1. Fases de una iteración](#5101-fases-de-una-iteraci%c3%b3n)
+      - [5.10.1. Fases de una iteración](#5101-fases-de-una-iteración)
       - [5.10.2. Roles en un proyecto Scrum](#5102-roles-en-un-proyecto-scrum)
       - [5.10.3. Beneficios de usar Scrum](#5103-beneficios-de-usar-scrum)
-  - [6. Bibliografía](#6-bibliograf%c3%ada)
+  - [6. Bibliografía](#6-bibliografía)
 
 <!-- tocstop -->
 
@@ -140,7 +140,7 @@ Un programa escrito en un lenguaje compilado posee la ventaja de no necesitar un
 
 ![Índice TIOBE](img/img05.png)
 
-*Ilustración 5*. Índice TIOBE de lenguajes de programación más utilizados, actualizado a Julio de 2019.
+*Ilustración 5*. Índice TIOBE de lenguajes de programación más utilizados, actualizado a Agosto de 2020.
 
 ![Más utilizados](img/img06.png)
 
@@ -270,14 +270,11 @@ Para finalizar, diremos que un modelo de objetos es **más cercano a la realidad
 
 *Ilustración 11*. James Gosling, creador de Java; y _Duke_, [mascota de Java](https://www.oracle.com/java/duke.html).
 
-James Gosling y otros desarrolladores de Sun Microsystems estaban trabajando en un proyecto de TV interactiva (y programando electrodomésticos como microondas y calculadoras) a mediados de los 90, cuando James llegó a frustrarse con el lenguaje
-que estaban usando (C++), un lenguaje desarrollado 10 años antes como una extensión de C para poder usar orientación a objetos.
+James Gosling y otros desarrolladores de Sun Microsystems estaban trabajando en un proyecto de TV interactiva (y programando electrodomésticos como microondas y calculadoras) a mediados de los 90, cuando James llegó a frustrarse con el lenguaje que estaban usando (C++), un lenguaje desarrollado 10 años antes como una extensión de C para poder usar orientación a objetos.
 
-James se encerró (Java se creó en 18 meses) en su oficina y creó un nuevo lenguaje que mejoraba las cosas que no le gustaban de C++. El proyecto de la TV interactiva fracasó, pero su lenguaje tuvo una imprevista aplicabilidad en un nuevo medio que se
-hacía popular al mismo tiempo: la Web.
+James se encerró (Java se creó en 18 meses) en su oficina y creó un nuevo lenguaje que mejoraba las cosas que no le gustaban de C++. El proyecto de la TV interactiva fracasó, pero su lenguaje tuvo una imprevista aplicabilidad en un nuevo medio que se hacía popular al mismo tiempo: la Web.
 
-Inicialmente Java se llamó Oak (roble en inglés), aunque tuvo que cambiar de denominación, debido a que dicho nombre ya estaba registrado por otra empresa. Se dice, que este nombre se le puso debido a la existencia de tal árbol en los alrededores
-del lugar de trabajo de los promotores del lenguaje. 
+Inicialmente Java se llamó Oak (roble en inglés), aunque tuvo que cambiar de denominación, debido a que dicho nombre ya estaba registrado por otra empresa. Se dice, que este nombre se le puso debido a la existencia de tal árbol en los alrededores del lugar de trabajo de los promotores del lenguaje. 
 
 Java fue lanzado por Sun en el otoño de 1995. Tres de las principales razones que llevaron a crear Java son:
 
@@ -297,11 +294,20 @@ A lo largo de muchos años, el lanzamiento de nuevas versiones de Java se ha hec
 
 ![Versiones de Java hasta Java 8](img/img12.jpg)
 
-*Ilustración 12*. Versiones de Java hasta Java 8 (gracias a [https://www.arquitecturajava.com/las-versiones-de-java/](https://www.arquitecturajava.com/las-versiones-de-java/)).
+*Ilustración 12.1*. Versiones de Java hasta Java 8 (gracias a [https://www.arquitecturajava.com/las-versiones-de-java/](https://www.arquitecturajava.com/las-versiones-de-java/)).
 
-En septiembre de 2017 se libera la versión 9 de Java, y a partir de ahí, se pasa a liberar nuevas versiones por calendario, y no _por funcionalidades. Cada 6 meses se libera una nueva versión de Java, siendo alguna de ellas una versión LTS (_long term support_) para garantizar compatibilidad durante un período aceptable de tiempo.
+En septiembre de 2017 se libera la versión 9 de Java, y a partir de ahí, se pasa a liberar nuevas versiones por calendario, y no por funcionalidades. Cada 6 meses se libera una nueva versión de Java, siendo alguna de ellas una versión LTS (_long term support_) para garantizar compatibilidad durante un período aceptable de tiempo.
 
-A día de hoy, la última versión pendiente de liberar es Java 13, y la última LTS liberada es la 11, si bien una de las más utilizadas sigue siendo la 8.
+![Release train](img/img12-1.png)
+*Ilustración 12.2*. Nuevo _release train_ de Java hasta la versión 17.
+
+A día de hoy, la última versión pendiente de liberar es Java 15, y la última LTS liberada es la 11. La próxima versión LTS prevista es la 17 y su lanzamiento está planificado para Septiembre de 2021.
+
+![Versiones de Java desde la 9 a la 14](img/img12-2.png)
+
+*Ilustración 12.3*. Versiones de Java desde la 9 hasta la 14.
+
+
 
 ### 4.2. Características del lenguaje Java
 
